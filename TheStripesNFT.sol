@@ -12,7 +12,7 @@ contract TheStripesNFT is ERC721Enumerable, Ownable {
     string public baseExtension = ".json";
     uint256 public cost = 0.05 ether;
     uint256 public presaleCost = 0.03 ether;
-    uint256 public maxSupply = 992;
+    uint256 public maxSupply = 5000;
     uint256 public maxMintAmount = 20;
     bool public paused = false;
     mapping(address => bool) public whitelisted;
